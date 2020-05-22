@@ -65,13 +65,13 @@ You should place the datasets in the `./dataset/`. The tree structure of directo
 
 - **RecSys2017 Dataset**: The origin dataset can be found [here](http://www.recsyschallenge.com/2017/). 
 
-- The codes for processing the data can be found in `./src/datasets/`
+- The codes for processing the data can be found in [`./src/datasets/`](https://github.com/THUIR/PreHash/tree/master/src/datasets)
 
     
 
 ## Example to run the codes
 
--   Some running commands can be found in `./command/command.py`
+-   Some running commands can be found in [`./command/command.py`](https://github.com/THUIR/PreHash/blob/master/command/command.py)
 -   For example:
 
 ```
