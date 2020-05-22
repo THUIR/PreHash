@@ -77,6 +77,6 @@ You should place the datasets in the `./dataset/`. The tree structure of directo
 ```
 # PreHash enhanced BiasedMF on Grocery dataset
 > cd PreHash/src/
-> python main.py --model_name BiasedMF --dataset Grocery-1-1 --rank 1 --metrics ndcg@10,precision@1 --lr 0.001 --l2 1e-7 --train_sample_n 1 --random_seed 2018 --gpu 0
+> python main.py --model_name PreHash --dataset Grocery-1-1 --rank 1 --metrics ndcg@10,precision@1 --lr 0.001 --l2 1e-7 --train_sample_n 1 --hash_u_num 1024 --sparse_his 0 --max_his 10 --sup_his 1 --random_seed 2018 --gpu 0
 ```
 

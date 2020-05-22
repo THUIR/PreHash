@@ -42,7 +42,7 @@ class BaseRunner(object):
                             help='clip_grad_value_ para, -1 means, no clip')
         parser.add_argument('--optimizer', type=str, default='Adam',
                             help='optimizer: GD, Adam, Adagrad')
-        parser.add_argument('--metrics', type=str, default="RMSE",
+        parser.add_argument('--metrics', type=str, default="ndcg@10,precision@1",
                             help='metrics: RMSE, MAE, AUC, F1, Accuracy, Precision, Recall')
         parser.add_argument('--pre_gpu', type=int, default=0,
                             help='Whether put all batches to gpu before run batches. \
