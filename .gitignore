@@ -206,6 +206,7 @@ result/
 model/
 csv_log/
 log_csv/
+draw/
 tmp/
 
 

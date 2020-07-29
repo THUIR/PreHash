@@ -2,7 +2,7 @@
 
 This is our implementation for the paper:
 
-*Shaoyun Shi, Weizhi Ma, Min Zhang, Yongfeng Zhang, Xinxing Yu, Houzhi Shan, Yiqun Liu, and Shaoping Ma. 2020. [Beyond User Embedding Matrix: Learning to Hash for Modeling Large-Scale Users in Recommendation](https://github.com/THUIR/PreHash) 
+*Shaoyun Shi, Weizhi Ma, Min Zhang, Yongfeng Zhang, Xinxing Yu, Houzhi Shan, Yiqun Liu, and Shaoping Ma. 2020. [Beyond User Embedding Matrix: Learning to Hash for Modeling Large-Scale Users in Recommendation](https://dl.acm.org/doi/10.1145/3397271.3401119) 
 In SIGIR'20.*
 
 **Please cite our paper if you use our codes. Thanks!**
@@ -15,6 +15,7 @@ Author: Shaoyun Shi (shisy13 AT gmail.com)
   author={Shaoyun Shi, Weizhi Ma, Min Zhang, Yongfeng Zhang, Xinxing Yu, Houzhi Shan, Yiqun Liu, and Shaoping Ma},
   booktitle={Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
   year={2020},
+  page={319--328},
   organization={ACM}
 }
 ```
